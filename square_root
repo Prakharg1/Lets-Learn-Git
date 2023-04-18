@@ -1,0 +1,8 @@
+
+def sq_rt():
+    n = int(input("please enter number greater than or equal to zero(0)"))
+    if n<0:
+        sq_rt()
+    return int(n**(1/2))
+
+print (sq_rt())
