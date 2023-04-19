@@ -1,0 +1,12 @@
+import pyautogui
+import time
+time.sleep(5)
+count = 0
+while count < 100:
+    #pyautogui.typewrite("Your are Lomad to the power " + str(count))
+    pyautogui.typewrite("Helloe brotther" + str(count) )
+    pyautogui.press("enter")
+    count += 1
+    if count >= 99:
+        pyautogui.typewrite("it was a prank")
+        
